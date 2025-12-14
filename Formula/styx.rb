@@ -11,7 +11,7 @@ class Styx < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/kessler-frost/styx/releases/download/2025.12.14/styx_2025.12.14_darwin_arm64.tar.gz"
-    sha256 "a9dda9bc143a7ced016086b02c0fa25229edde330facc94e514aadced7f5b162"
+    sha256 "11e1ce321b2f36e61af64948da86fe790085cc7e7ae06995e86f7190ab6eb9d6"
 
     def install
       bin.install "styx"
